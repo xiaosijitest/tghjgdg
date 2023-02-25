@@ -1,4 +1,4 @@
-FROM ubuntu:lasted
+FROM ubuntu:latest
 RUN mkdir /app && chmod 777 /app
 WORKDIR /app
 ENV DEBIAN_FRONTEND=noninteractive
